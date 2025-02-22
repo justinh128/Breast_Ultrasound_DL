@@ -14,10 +14,10 @@ The dataset used for this project is the Breast Ultrasound Images Datase (https:
 
 - **Total Images:** 1312
 - **Classes:**
-  - **Benign Tumors: 437 images, with 454 corresponding segmentation masks.
-  - **Malignant Tumors: 210 images, with 211 corresponding segmentation masks.
+  - **Benign Tumors:** 437 images, with 454 corresponding segmentation masks.
+  - **Malignant Tumors:** 210 images, with 211 corresponding segmentation masks.
 - **Image Format:** `.png`
-- **Masks: Each tumor image has an associated mask (`_mask.png`), where white pixels indicate the tumor region.
+- **Masks:** Each tumor image has an associated mask (`_mask.png`), where white pixels indicate the tumor region.
 
 ---
 
@@ -30,9 +30,9 @@ The dataset used for this project is the Breast Ultrasound Images Datase (https:
 
 ### 2. **Model Architecture: U-Net**
    - Implemented a U-Net model, designed for biomedical image segmentation.
-   - **Encoder: Extracts feature maps using convolutional layers and max pooling.
-   - **Bottleneck: Captures high-level representations of tumor structures.
-   - **Decoder: Upsamples feature maps and concatenates them with earlier layers for fine-grained segmentation.
+   - **Encoder:** Extracts feature maps using convolutional layers and max pooling.
+   - **Bottleneck:** Captures high-level representations of tumor structures.
+   - **Decoder:** Upsamples feature maps and concatenates them with earlier layers for fine-grained segmentation.
 
 ### 3. **Training and Optimization**
    - **Loss Function:** Binary Cross-Entropy.
@@ -63,7 +63,7 @@ The model achieved high validation accuracy (94.16%), indicating strong generali
 2. **Data Augmentation:** Apply rotation, flipping, and contrast adjustments to increase dataset variability.
 3. **Alternative Architectures:** Experiment with Attention U-Net or DeepLabV3+ for improved segmentation.
 4. **Post-Processing Techniques:** Use morphological operations to refine mask predictions.
-5. **Integration with Classification: Apply segmented tumor regions to a CNN classifier for **benign vs. malignant diagnosis.
+5. **Integration with Classification:** Apply segmented tumor regions to a CNN classifier for benign vs. malignant diagnosis.
 
 ---
 
