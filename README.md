@@ -59,7 +59,7 @@ The model achieved high validation accuracy (94.16%), indicating strong generali
 
 ## **Next Steps and Areas for Improvement**
 
-1. **Loss Function Enhancement: Implement Dice Loss or IoU Loss to optimize segmentation boundaries.
+1. **Loss Function Enhancement:** Implement Dice Loss or IoU Loss to optimize segmentation boundaries.
 2. **Data Augmentation:** Apply rotation, flipping, and contrast adjustments to increase dataset variability.
 3. **Alternative Architectures:** Experiment with Attention U-Net or DeepLabV3+ for improved segmentation.
 4. **Post-Processing Techniques:** Use morphological operations to refine mask predictions.
