@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-This project applies deep learning-based segmentation to identify tumor regions in breast ultrasound images. Using the **U-Net architecture, a widely used convolutional neural network (CNN) for medical image segmentation, the model learns to distinguish between tumor and non-tumor areas, generating binary segmentation masks. 
+This project applies deep learning-based segmentation to identify tumor regions in breast ultrasound images. Using the U-Net architecture, a widely used convolutional neural network (CNN) for medical image segmentation, the model learns to distinguish between tumor and non-tumor areas, generating binary segmentation masks. 
 
 By leveraging pixel-wise classification, this approach provides a more detailed analysis of benign and malignant tumors, improving early detection capabilities. The results of this study highlight the potential for AI-driven diagnostic tools to assist radiologists in detecting breast cancer more efficiently.
 
